@@ -14,5 +14,5 @@ cv.putText(
     thickness=2,
     lineType=cv.LINE_AA)
 cv.imshow("Image", img)
-cv.waitKey
+cv.waitKey(10000)
 cv.destroyAllWindows()
